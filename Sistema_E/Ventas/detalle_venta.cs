@@ -18,6 +18,10 @@ namespace Sistema_E.Entidades.Ventas
         public decimal descuento_detalle_venta { get; set; }
 
         public Usuarios.persona persona
+
+            List<venta> Ventas { get; set; }
+        List<articulo> Articulos { get; set; }
+
         {
             get => default;
             set

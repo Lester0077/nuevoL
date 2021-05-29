@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Sistema.Datos.Mapping.M_Almacen
 {
-   public class ArticuloMap : IEntityTypeConfiguration<articulo>
+   public class Articulo_Map : IEntityTypeConfiguration<articulo>
     {
         public void Configure(EntityTypeBuilder<articulo> builder)
         {

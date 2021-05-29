@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Sistema.Datos.Mapping.M_Almacen
 {
-    public class CategoriaMap : IEntityTypeConfiguration<Categoria>
+    public class Categoria_Map : IEntityTypeConfiguration<Categoria>
     {
         public void Configure(EntityTypeBuilder<Categoria> builder)
         {

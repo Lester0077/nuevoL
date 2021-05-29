@@ -10,7 +10,6 @@ namespace Sistema_E.Entidades.Ventas
         public int idventa { get; set; }
         [Required]
 
-
         public String tipo_comprobante_venta { get; set; }
 
         public String serie_comprobante { get; set; }
@@ -28,6 +27,9 @@ namespace Sistema_E.Entidades.Ventas
         public ICollection<detalle_venta> detalle_ventas { get; set; }
 
         public detalle_venta detalle_venta
+
+        List<persona> Personas { get; set; }
+        List<usuario> Usuarios { get; set; }
         {
             get => default;
             set
